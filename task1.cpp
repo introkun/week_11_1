@@ -40,8 +40,7 @@ int main()
 			}
 		}
 	}
-	int result = day(dataStart, dataStop);
-	cout << result << endl;
+	cout << day(dataStart, dataStop) << endl;
 }
 
 int day(int(&dataStart)[3], int(&dataStop)[3])
@@ -79,7 +78,7 @@ int daysMonth(int(&dataStart)[3], int(&dataStop)[3])
 	int i = 0;
 	for (int j = 0; j < 2; j++)
 	{
-		if (j = 0)
+		if (j == 0)
 		{
 			l = dataStart[1];
 			i = 1;
