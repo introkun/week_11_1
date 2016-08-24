@@ -1,9 +1,9 @@
-﻿#include <iostream>
+#include <iostream>
 #include <locale.h>
 
 using namespace std;
 
-int average(int(&arr)[10]);
+int average(int[10]);
 
 int main()
 {
@@ -19,7 +19,7 @@ int main()
 	cout << average(arr) << endl;
 }
 
-int average(int(&arr)[10])
+int average(int arr[10])
 {
 	int const size = 10;
 	int result = 0;
