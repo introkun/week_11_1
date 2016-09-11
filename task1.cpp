@@ -3,6 +3,7 @@
 
 using namespace std;
 
+//Написать функцию, которая принимает две даты (т.е. функция принимает шесть параметров), а не 2 массива
 int yearLeap(int(&dataStart)[3], int(&dataStop)[3]);
 int daysMonth(int(&dataStart)[3], int(&dataStop)[3]);
 int day(int(&dataStart)[3], int(&dataStop)[3]);
