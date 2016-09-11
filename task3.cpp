@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int average(int(&arr)[10]);
+int average(int arr[10]);
 
 int main()
 {
@@ -20,7 +20,7 @@ int main()
 	return 0;
 }
 
-int average(int(&arr)[10])
+int average(int arr[10])
 {
 	int const size = 10;
 	int result[3]{ 0, 0, 0};
